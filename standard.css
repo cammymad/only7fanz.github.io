@@ -1,0 +1,218 @@
+element.style {
+}
+@media (max-width: 640px)
+.ping-container {
+    padding: 24px;
+    padding: var(--EXTRA-LARGE-MARGIN) var(--LARGE-MARGIN-FIXED);
+}
+.ping-container {
+    padding: 32px 24px;
+    padding: var(--EXTRA-LARGE-MARGIN) var(--LARGE-MARGIN-FIXED);
+}
+.ping-container, .ping-outer-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+form, input, optgroup, select {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+constructed stylesheet
+.inner-scroll {
+    left: 0px;
+    right: 0px;
+    top: calc(var(--offset-top) * -1);
+    bottom: calc(var(--offset-bottom) * -1);
+    padding-left: var(--padding-start);
+    padding-right: var(--padding-end);
+    padding-top: calc(var(--padding-top) + var(--offset-top));
+    padding-bottom: calc(var(--padding-bottom) + var(--keyboard-offset) + var(--offset-bottom));
+    position: absolute;
+    color: var(--color);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+style attribute {
+    --offset-top: 0px;
+    --offset-bottom: 0px;
+}
+<style>
+.hydrated {
+    visibility: inherit;
+}
+ion-content {
+    --background: transparent!important;
+}
+<style>
+ion-select-popover, ion-select, ion-select-option, ion-menu-button, ion-menu, ion-menu-toggle, ion-action-sheet, ion-fab-button, ion-fab, ion-fab-list, ion-refresher-content, ion-refresher, ion-alert, ion-back-button, ion-loading, ion-toast, ion-card, ion-card-content, ion-card-header, ion-card-subtitle, ion-card-title, ion-item-option, ion-item-options, ion-item-sliding, ion-infinite-scroll-content, ion-infinite-scroll, ion-reorder, ion-reorder-group, ion-segment-button, ion-segment, ion-tab-button, ion-tab-bar, ion-chip, ion-modal, ion-popover, ion-searchbar, ion-app, ion-buttons, ion-content, ion-footer, ion-header, ion-router-outlet, ion-title, ion-toolbar, ion-route, ion-route-redirect, ion-router, ion-router-link, ion-avatar, ion-badge, ion-thumbnail, ion-col, ion-grid, ion-row, ion-nav, ion-nav-link, ion-slide, ion-slides, ion-tab, ion-tabs, ion-checkbox, ion-img, ion-input, ion-progress-bar, ion-range, ion-split-pane, ion-text, ion-textarea, ion-toggle, ion-virtual-scroll, ion-picker, ion-datetime, ion-picker-column, ion-radio, ion-radio-group, ion-spinner, ion-backdrop, ion-ripple-effect, ion-button, ion-icon, ion-item-divider, ion-item-group, ion-note, ion-skeleton-text, ion-item, ion-label, ion-list, ion-list-header {
+    visibility: hidden;
+}
+constructed stylesheet
+:host {
+    --background: var(--ion-background-color, #fff);
+    --color: var(--ion-text-color, #000);
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+    --padding-start: 0px;
+    --padding-end: 0px;
+    --keyboard-offset: 0px;
+    --offset-top: 0px;
+    --offset-bottom: 0px;
+    --overflow: auto;
+    display: block;
+    position: relative;
+    flex: 1 1 0%;
+    width: 100%;
+    height: 100%;
+    font-family: var(--ion-font-family, inherit);
+    contain: size style;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.ping-inner-footer-container, .ping-sub-header, body {
+    color: #444;
+    color: var(--FONT-MEDIUM-COLOR);
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: normal;
+}
+body {
+    background: var(--ion-background-color);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+    touch-action: manipulation;
+    -webkit-user-drag: none;
+    -ms-content-zooming: none;
+    word-wrap: break-word;
+    overscroll-behavior-y: none;
+    text-size-adjust: none;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 640px)
+:root:root {
+    --EXTRA-EXTRA-LARGE-MARGIN: 32px;
+    --EXTRA-LARGE-MARGIN: 24px;
+    --LARGE-MARGIN: 16px;
+    --MEDIUM-MARGIN: 8px;
+    --SMALL-MARGIN: 4px;
+}
+html.md {
+    --ion-default-font: "Roboto","Helvetica Neue",sans-serif;
+}
+:root {
+    --ion-padding: 100px;
+    --MAX-WIDTH: 416px;
+    --EXTRA-EXTRA-LARGE-MARGIN-FIXED: 64px;
+    --EXTRA-LARGE-MARGIN-FIXED: 32px;
+    --LARGE-MARGIN-FIXED: 24px;
+    --MEDIUM-MARGIN-FIXED: 16px;
+    --SMALL-MARGIN-FIXED: 8px;
+    --EXTRA-EXTRA-LARGE-MARGIN: 64px;
+    --EXTRA-LARGE-MARGIN: 32px;
+    --LARGE-MARGIN: 24px;
+    --MEDIUM-MARGIN: 16px;
+    --SMALL-MARGIN: 8px;
+    --XXL: var(--EXTRA-EXTRA-LARGE-MARGIN);
+    --XL: var(--EXTRA-LARGE-MARGIN);
+    --L: var(--LARGE-MARGIN);
+    --M: var(--MEDIUM-MARGIN);
+    --S: var(--SMALL-MARGIN);
+    --XXLF: var(--EXTRA-EXTRA-LARGE-MARGIN-FIXED);
+    --XLF: var(--EXTRA-LARGE-MARGIN-FIXED);
+    --LF: var(--LARGE-MARGIN-FIXED);
+    --MF: var(--MEDIUM-MARGIN-FIXED);
+    --SF: var(--SMALL-MARGIN-FIXED);
+}
+:root {
+    --SMALL-MARGIN: 8px;
+    --MEDIUM-MARGIN: 16px;
+    --LARGE-MARGIN: 24px;
+    --EXTRA-LARGE-MARGIN: 32px;
+    --EXTRA-EXTRA-LARGE-MARGIN: 64px;
+    --SMALL-MARGIN-FIXED: 8px;
+    --MEDIUM-MARGIN-FIXED: 16px;
+    --LARGE-MARGIN-FIXED: 24px;
+    --EXTRA-LARGE-MARGIN-FIXED: 32px;
+    --EXTRA-EXTRA-LARGE-MARGIN-FIXED: 64px;
+    --MAX-WIDTH: 450px;
+    --ion-padding: 100px;
+    --ion-color-btnsecondary-tint: #ededed;
+    --ion-color-btnsecondary-shade: #ededed;
+    --ion-color-btnsecondary-contrast: #0089ff;
+    --ion-color-btnsecondary: #fff;
+    --ion-color-light-tint: #7e7e7e;
+    --ion-color-light-shade: #636363;
+    --ion-color-light-contrast: #fff;
+    --ion-color-light: #707070;
+    --ion-color-medium-tint: #575757;
+    --ion-color-medium-shade: #3c3c3c;
+    --ion-color-medium-contrast: #fff;
+    --ion-color-medium: #444;
+    --ion-color-dark-tint: #383838;
+    --ion-color-dark-shade: #1e1e1e;
+    --ion-color-dark-contrast: #fff;
+    --ion-color-dark: #222;
+    --ion-color-danger-tint: #e31a27;
+    --ion-color-danger-shade: #c5000d;
+    --ion-color-danger-contrast: #fff;
+    --ion-color-danger: #e0000f;
+    --ion-color-warning-tint: #ffbf38;
+    --ion-color-warning-shade: #e0a21e;
+    --ion-color-warning-contrast: #000;
+    --ion-color-warning: #ffb822;
+    --ion-color-success-tint: #26961a;
+    --ion-color-success-shade: #0c7900;
+    --ion-color-success-contrast: #fff;
+    --ion-color-success: #0e8a00;
+    --ion-color-tertiary-tint: #1ab3e0;
+    --ion-color-tertiary-shade: #0096c2;
+    --ion-color-tertiary-contrast: #fff;
+    --ion-color-tertiary: #0089ff;
+    --ion-color-secondary-tint: #4775d1;
+    --ion-color-secondary-shade: #2d5ab4;
+    --ion-color-secondary-contrast: #fff;
+    --ion-color-secondary: #0089ff;
+    --ion-color-primary-tint: #1a47b3;
+    --ion-color-primary-shade: #002d96;
+Show All Properties (92 more)
+}
+html {
+    --ion-font-family: var(--ion-default-font);
+    width: 100%;
+    height: 100%;
+    text-size-adjust: 100%;
+    font-family: var(--ion-font-family);
+}
+@supports (padding-top:env(safe-area-inset-top))
+html {
+    --ion-safe-area-top: env(safe-area-inset-top);
+    --ion-safe-area-bottom: env(safe-area-inset-bottom);
+    --ion-safe-area-left: env(safe-area-inset-left);
+    --ion-safe-area-right: env(safe-area-inset-right);
+}
+@supports (padding-top:20px)
+html {
+    --ion-safe-area-top: var(--ion-statusbar-padding);
+}

